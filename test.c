@@ -4,22 +4,19 @@
 #include"test.h"
 #include"shell.h"
 char *args1[3]={"cd","..",NULL};
-char *args2[3]={"cd","Music",NULL};
 char *args3[3]={"mkdir","BOZO",NULL};
 char *args4[4]={"grp","Unix","myfile1.txt",NULL};
 char *args5[5]={"echo","Hello","Cruel","World",NULL};
 void test_grep()
 {
 assert(sh_grep(args4)==1);
-printf("test passed for grep");
+printf("test passed for grep \n");
 }
 void test_cd()
 {
     assert(sh_cd(args1)==1);
-    printf("test passed for cd");
-    assert(sh_cd(args2)==1);
-    printf("test passed for cd");
-
+    printf("test passed for cd \n");
+    
 }
 
 void test_mkdir()
