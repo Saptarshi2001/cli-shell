@@ -338,13 +338,13 @@ void read_all()
 
 int main()
 {
-    test_cls();
+   /* test_cls();
     test_grep();
     test_echo();
     test_cd();
     test_mkdir();
     test_help();
     test_exit();
-    test_color();
+    test_color();*/
     read_all();
 }
