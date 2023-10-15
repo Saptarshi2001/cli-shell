@@ -18,10 +18,12 @@ To compile and run the program, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
 2. Navigate to the project directory: `cd your-repo`
-3. Compile both your main file and the test.c file. If you're using the gcc compiler, you can do this by running the following command:
-   `gcc -c main.c test.c`
-4. After compiling the files, link them together:`gcc main.o test.o -o output`   
-5. Run the program: `output.exe`
+3. If you want to compile the main file ,run the following the command : `gcc  shell.c`
+4. Run the .exe file -`a.exe`
+5. If you want to compile both the main file and the test file,remove the /* and */ and run the following command: 
+   `gcc -c shell.c test.c`
+6. After compiling the files, link them together:`gcc shell.o test.o -o output`   
+7. Run the program: `output.exe`
 
 ## Usage
 
